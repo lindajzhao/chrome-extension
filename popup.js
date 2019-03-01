@@ -1,6 +1,6 @@
 let changeColor = document.getElementById('changeColor');
 
-// 'color' value is set in chrome.storage in `background.js`
+// 'color' value is set in chrome.storage in `background.js` and in `options.js`
 chrome.storage.sync.get('color', function(data) {
     changeColor.style.backgroundColor = data.color;
     changeColor.setAttribute('value', data.color);

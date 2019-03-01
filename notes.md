@@ -1,5 +1,5 @@
 
-## https://developer.chrome.com/extensions/getstarted
+# [Getting Started Tutorial](https://developer.chrome.com/extensions/getstarted)
 
 ## [chrome.pageAction](https://developer.chrome.com/extensions/pageAction)
 
@@ -11,3 +11,9 @@
 ## [chrome.declarativeContent API](https://developer.chrome.com/extensions/declarativeContent)
 
 - Rules are persistent across browsing sessions. Old rules should be cleared before registering new rules
+
+## `options_page`
+- markup and script defines "Options" page
+
+## `default_popup`
+- markup and script defines popup UI
